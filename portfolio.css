@@ -1,0 +1,51 @@
+body {
+    background-color: lightblue;
+    color:grey;
+}
+
+
+h1 {
+    color:white;
+}
+
+img {
+    width:30%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color:lightgrey;
+    height:100%;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;    
+}
+
+li a:hover {
+    background-color: grey;
+}
+
+.active{
+    background-color: darkgrey;
+}
+
+section{
+    display:flex;
+    height:900px;
+}
+
+aside{
+    flex: 1;
+}
+
+article{
+    flex: 7;
+    padding-left: 20px;
+}
